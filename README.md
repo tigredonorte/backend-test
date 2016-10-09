@@ -35,8 +35,11 @@ A API desenvolvida utiliza url amigável. As seguintes URLs estão disponíveis:
 
 Exemplos de uso:
 > /vaga&page=5
+
 > /vaga&text=Programador&order=1
+
 > /vaga&salary=2000&page=10
+
 > /vaga&text=Programador&salary=4000&city=Porto%20Alegre
 
 O resultado será exibido no formato JSON.
