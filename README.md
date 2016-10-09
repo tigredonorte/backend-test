@@ -6,6 +6,12 @@
 
 # API Catho
 
+Para este projeto não utilizei nenhum framework. Mas criei uma arquitetura MVC simples, 
+pois caso seja necessária novas implementações para o projeto fique fácil e acessível para 
+qualquer um adicionar mais funcionalidades. 
+
+Para o desenvolvimento gastei aproximadamente 4 horas intercaladas.
+
 ## INSTALAÇÃO
 
 É necessário que o mod rewrite do apache esteja ativo, pois utilizei urls amigáveis para acessar os controllers desta aplicação
