@@ -10,9 +10,8 @@ Para este projeto não utilizei nenhum framework. Mas criei uma arquitetura MVC 
 pois caso seja necessária novas implementações para o projeto fique fácil e acessível para 
 qualquer um adicionar mais funcionalidades. 
 
-Para o desenvolvimento gastei 2 horas e 25 minutos intercaladas ao longo do domingo (as horas eu cronometrei utilizando o [rescue time](https://www.rescuetime.com/).
+Para o desenvolvimento gastei 2 horas e 25 minutos intercaladas ao longo do domingo, as horas eu cronometrei utilizando o [rescue time](https://www.rescuetime.com/).
 
-Como 
 
 ## INSTALAÇÃO
 
