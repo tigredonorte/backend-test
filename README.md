@@ -12,6 +12,10 @@ qualquer um adicionar mais funcionalidades.
 
 Para o desenvolvimento gastei aproximadamente 4 horas intercaladas.
 
+Como não tinha uma estimativa de quanto tempo demoraria para fazer, inverti a ordem das coisas:
+primeiro fiz o código para depois desenvolver os testes. Em um ambiente de desenvolvimento ágil
+o correto é fazer primeiro os testes para então implementar o código
+
 ## INSTALAÇÃO
 
 É necessário que o mod rewrite do apache esteja ativo, pois utilizei urls amigáveis para acessar os controllers desta aplicação
