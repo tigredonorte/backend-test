@@ -25,7 +25,10 @@ Para instalar as tabelas e importar os dados para o banco de dados, acesse a url
 
 ## FUNCIONAMENTO
 
-A API desenvolvida utiliza url amigável. As seguintes URLs estão disponíveis:
+A API desenvolvida utiliza url amigável. 
+ATENÇÃO! quando digo /vaga/ estou me referindo a url http://host-aonde-está-o-código/vaga
+
+As seguintes URLs estão disponíveis:
 ### /vaga: Aceita os parâmetros get:
 - text: uma string que filtrará as vagas 
 - salary: um inteiro que vai filtrar as vagas com salários >= ao parâmetro enviado
@@ -34,13 +37,10 @@ A API desenvolvida utiliza url amigável. As seguintes URLs estão disponíveis:
 - page: são retornados 20 resultados por página. O parâmetro page é numérico e sempre maior ou igual a 1. Valores incorretos deste parâmetro irão retornar a página 1
 
 Exemplos de uso:
-> /vaga&page=5
-
-> /vaga&text=Programador&order=1
-
-> /vaga&salary=2000&page=10
-
-> /vaga&text=Programador&salary=4000&city=Porto%20Alegre
+- /vaga&page=5
+- /vaga&text=Programador&order=1
+- /vaga&salary=2000&page=10
+- /vaga&text=Programador&salary=4000&city=Porto%20Alegre
 
 O resultado será exibido no formato JSON.
 
