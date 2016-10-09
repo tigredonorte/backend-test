@@ -1,0 +1,17 @@
+{
+    "name": "tigredonorte/backend-test",
+    "authors": [
+        {
+            "name": "thom",
+            "email": "tigredonorte@yahoo.com.br"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "catho\\controller\\"   : "app\\controller",
+            "catho\\model\\"        : "app\\model",
+            "catho\\architecture\\" : "app\\architecture"
+        }
+    }
+}

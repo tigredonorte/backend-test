@@ -1,0 +1,6 @@
+<?php
+
+if(!defined('DB_SERVER'))  {define('DB_SERVER'  , 'localhost');}
+if(!defined('DB_DATABASE')){define('DB_DATABASE', 'catho');}
+if(!defined('DB_USER'))    {define('DB_USER'    , 'catho');}
+if(!defined('DB_PASSWORD')){define('DB_PASSWORD', '12tm3flol');}
