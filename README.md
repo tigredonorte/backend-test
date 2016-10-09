@@ -21,10 +21,6 @@ Para instalação é necessário uma conexão com o banco de dados mysql, para i
 
 Para instalar as tabelas e importar os dados para o banco de dados, acesse a url /vaga/initDatabase se o arquivo database.php estiver corretamente configurado, os dados serão importados para o banco ao acessar esta url
 
-```bash
-$ composer install
-```
-
 ---
 
 ## FUNCIONAMENTO
