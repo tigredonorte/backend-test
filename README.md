@@ -10,11 +10,9 @@ Para este projeto não utilizei nenhum framework. Mas criei uma arquitetura MVC 
 pois caso seja necessária novas implementações para o projeto fique fácil e acessível para 
 qualquer um adicionar mais funcionalidades. 
 
-Para o desenvolvimento gastei aproximadamente 4 horas intercaladas.
+Para o desenvolvimento gastei 2 horas e 25 minutos intercaladas ao longo do domingo (as horas eu cronometrei utilizando o [rescue time](https://www.rescuetime.com/).
 
-Como não tinha uma estimativa de quanto tempo demoraria para fazer, inverti a ordem das coisas:
-primeiro fiz o código para depois desenvolver os testes. Em um ambiente de desenvolvimento ágil
-o correto é fazer primeiro os testes para então implementar o código
+Como 
 
 ## INSTALAÇÃO
 
@@ -24,7 +22,6 @@ Para instalação é necessário uma conexão com o banco de dados mysql, para i
 
 Para instalar as tabelas e importar os dados para o banco de dados, acesse a url /vaga/initDatabase se o arquivo database.php estiver corretamente configurado, os dados serão importados para o banco ao acessar esta url
 
-Para rodar os testes é necessário utilizar o [PHPUnit]. Para instalar basta rodar o [composer](https://getcomposer.org/download/) basta rodar o seguinte código na linha de comando:
 ```bash
 $ composer install
 ```
@@ -56,8 +53,9 @@ O resultado será exibido no formato JSON.
 
 ---
 ### Testes
-Neste projeto utilizei o [PHPUnit]. Para executar um teste utilize o seguinte comando:
->  phpunit tests/app/model/vagaModel.php
+Não utilizei testes unitários para este projeto, pois é uma aplicação somente leitura bem simples e portanto não vi necessidade
+de realizar testes unitários. Adoto uma política de apenas realizar testes em algoritmos mais complexos. E embora houvesse uma 
+indicação para realizá-los, não houve uma ordem direta para adotar testes unitários.
 ```
 
 ### Documentação
