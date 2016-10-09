@@ -54,7 +54,6 @@ O resultado será exibido no formato JSON.
 Não utilizei testes unitários para este projeto, pois é uma aplicação somente leitura bem simples e portanto não vi necessidade
 de realizar testes unitários. Adoto uma política de apenas realizar testes em algoritmos mais complexos. E embora houvesse uma 
 indicação para realizá-los, não houve uma ordem direta para adotar testes unitários.
-```
 
 ### Documentação
 Neste projeto utilizei o [PHPDoc](https://phpdoc.org/docs/latest/getting-started/installing.html).
